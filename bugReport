@@ -1,0 +1,78 @@
+# 🐞 Bug Report – Bug Challenge (Paylocity)
+
+## 📌 General Information
+- **Tester:** [Your Name]
+- **Date:** [dd/mm/yyyy]
+- **Application:** Benefits Dashboard (UI & API)
+
+---
+
+## 🔹 Bug Format
+
+### Bug ID: [UI-01] or [API-01]
+**Title:** [Short and clear summary]  
+**Severity:** [High | Medium | Low]  
+**Priority:** [High | Medium | Low]  
+
+**Module:** [UI | API]  
+**Endpoint/Screen:** [e.g. `/employees` | Dashboard]  
+
+---
+
+### ✅ Steps to Reproduce
+1. [Step 1]  
+2. [Step 2]  
+3. [Step 3]  
+
+### 🔎 Expected Result
+[What should happen]
+
+### ❌ Actual Result
+[What actually happens]
+
+### 📸 Evidence
+- Screenshot or JSON response here
+
+---
+
+## 🔹 Example Filled (UI)
+### Bug ID: UI-02
+**Title:** System allows saving employee without name  
+**Severity:** High  
+**Priority:** High  
+
+**Module:** UI  
+**Screen:** Benefits Dashboard  
+
+**Steps:**
+1. Click `Add Employee`  
+2. Leave **Name** field empty  
+3. Click **Save**  
+
+**Expected Result:**  
+System should display validation "Name is required" and should not save the employee.  
+
+**Actual Result:**  
+Employee is saved with an empty name and appears in the table.  
+
+**Evidence:**  
+[Screenshot attached]
+
+---
+
+## 🔹 Example Filled (API)
+### Bug ID: API-04
+**Title:** API allows creating employee without name  
+**Severity:** High  
+**Priority:** Medium  
+
+**Module:** API  
+**Endpoint:** `POST /employees`  
+
+**Steps:**
+1. Send request with empty `name` field:  
+```json
+{
+  "name": "",
+  "dependents": 2
+}
