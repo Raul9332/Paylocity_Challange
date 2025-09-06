@@ -1,15 +1,15 @@
 # 🐞 Bug Report – Bug Challenge (Paylocity)
 
 ## 📌 General Information
-- **Tester:** [Your Name]
-- **Date:** [dd/mm/yyyy]
-- **Application:** Benefits Dashboard (UI & API)
+- **Tester:** Raul De Leon
+- **Date:** 09/05/2025
+- **Application:** Benefits Dashboard UI
 
 ---
 
 ## 🔹 Bug Format
 
-### Bug ID: [UI-01] or [API-01]
+### Bug ID: [UI-01]
 **Title:** [Short and clear summary]  
 **Severity:** [High | Medium | Low]  
 **Priority:** [High | Medium | Low]  
